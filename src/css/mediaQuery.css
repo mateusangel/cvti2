@@ -374,6 +374,9 @@
     font-size: 30px !important;
     margin-left: 20px;
   }
+  .rodapeEmail {
+    margin: 0 auto;
+  }
 }
 @media (max-width: 356px) {
   .suasHabilidades .tituloHabilidades {
@@ -418,6 +421,9 @@
     justify-content: center;
   }
   .rodapeRightRede {
+    margin: 0 auto;
+  }
+  .rodapeEmail {
     margin: 0 auto;
   }
 }
