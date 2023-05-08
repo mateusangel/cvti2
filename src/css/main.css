@@ -1,3 +1,21 @@
+/* * {
+  scrollbar-width: auto;
+  scrollbar-color: #f66b40 #294380;
+}
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #f66b40 #294380;
+}
+
+Chrome, Edge, e Safari
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #294380;
+}
+*/
 .main {
   max-width: 1400px;
   /* padding: 0 70px; */
