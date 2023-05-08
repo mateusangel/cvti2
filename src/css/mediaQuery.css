@@ -364,6 +364,16 @@
   .rodapeRightRede {
     margin: 0 auto;
   }
+  .projFinais h1 {
+    max-width: 300px !important;
+    font-size: 30px !important;
+    margin-left: 20px;
+  }
+  .progDoCurso h1 {
+    max-width: 300px !important;
+    font-size: 30px !important;
+    margin-left: 20px;
+  }
 }
 @media (max-width: 356px) {
   .suasHabilidades .tituloHabilidades {
