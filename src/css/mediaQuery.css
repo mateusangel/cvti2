@@ -295,7 +295,7 @@
   }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 418px) {
   .header .logo {
     margin-left: -50px;
   }
@@ -334,12 +334,80 @@
   .progDoCursoCont .conteudo {
     max-width: 300px;
   }
+  .rodape .rodapeLeft .rodapeEmail {
+    max-width: 300px;
+  }
+  .rodapeLeft h1 {
+    margin-left: 20px;
+    text-align: center;
+  }
+  .rodapeLeft p {
+    margin-left: 20px;
+    text-align: center;
+  }
+  .rodapeLeft h3 {
+    /* margin-left: 20px; */
+    text-align: center;
+    font-size: 15px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .rodapeLeft h4 {
+    /* margin-left: 20px; */
+    text-align: center;
+  }
+  .rodapeRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .rodapeRightRede {
+    margin: 0 auto;
+  }
 }
 @media (max-width: 356px) {
   .suasHabilidades .tituloHabilidades {
     max-width: 300px;
   }
+  .projFinais h1 {
+    max-width: 300px !important;
+    font-size: 30px !important;
+    margin-left: 20px;
+  }
+
+  .progDoCurso h1 {
+    max-width: 300px !important;
+    font-size: 30px !important;
+    margin-left: 20px;
+  }
   .rodape .rodapeLeft .rodapeEmail {
     max-width: 300px;
+  }
+  .rodapeLeft h1 {
+    margin-left: 20px;
+    text-align: center;
+  }
+  .rodapeLeft p {
+    margin-left: 20px;
+    text-align: center;
+  }
+  .rodapeLeft h3 {
+    /* margin-left: 20px; */
+    text-align: center;
+    font-size: 15px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .rodapeLeft h4 {
+    /* margin-left: 20px; */
+    text-align: center;
+  }
+  .rodapeRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .rodapeRightRede {
+    margin: 0 auto;
   }
 }
