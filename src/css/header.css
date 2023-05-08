@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px;
+}
+
+.header .logo {
+  font-size: 48px;
+  font-family: "MuseoModerno", cursive;
+  text-transform: uppercase;
+}
+
+.header .menu ul {
+  display: flex;
+  margin-top: 40px;
+}
+
+.header .menu li {
+  margin: 0 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+.header .menu li a {
+  transition: all 0.2s ease-in-out;
+}
+
+.header .menu li:hover a {
+  color: #3e63bb;
+}
+
+/* .header .btn-aluno {
+    background-color: #F66B40;
+    border-radius: 10px;
+    width: 162px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    transition: all 0.3s;
+} */
+
+.header .btn-aluno span {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}

@@ -1,0 +1,333 @@
+.main {
+  max-width: 1400px;
+  /* padding: 0 70px; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main .progCurso {
+  /* width: 100%; */
+  max-width: 1400px;
+  background-color: #294380;
+  border-radius: 30px;
+  /* margin: 174px auto; */
+  margin-top: 174px;
+  margin-bottom: 174px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 48px;
+}
+
+.main .progCurso .textos {
+  /* margin-left: 94px; */
+  max-width: 500px;
+}
+
+.progCurso .textos .titulo {
+  color: #f66b40;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.progCurso .textos .titulo2 {
+  color: #f66b40;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+.progCurso .textos p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29.26px;
+  color: #d9d9d9;
+  margin-top: 10px;
+}
+
+.progCurso .btn-insc {
+  background-color: #f2643d;
+  width: 246px;
+  height: 57px;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.progCurso .btn-insc a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29.26px;
+  color: #fff;
+}
+
+.progCurso .btn-insc:hover {
+  transform: scale(1.2);
+}
+
+.progCurso .img img {
+  height: 500px;
+  width: 500px;
+  top: 0;
+}
+
+.paraquem {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.paraquem .btnParaQuem {
+  background-color: #f66b40;
+  width: 731px;
+  height: 115px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paraquem .btnParaQuem span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  line-height: 73px;
+  color: #d9d9d9;
+  text-align: center;
+}
+
+.niveisCursos {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.niveisCursos .imgNiveis img {
+  width: 509px;
+  height: 500px;
+}
+
+.niveisCursos .textNiveis {
+  display: flex;
+  flex-direction: column;
+}
+
+.textNiveis .numero-traco {
+  display: flex;
+}
+
+.textNiveis .numero-traco h1 {
+  color: #f66b40;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.textNiveis .numero-traco .primeiro {
+  margin-right: -18px;
+}
+
+.textNiveis .numero-traco img {
+  box-shadow: 0 4 4 0 #000;
+  margin-top: 15px;
+}
+
+.textNiveis .conteudoNiveis {
+  width: 486px;
+  height: 194px;
+  background-color: #294380;
+  border-radius: 30px;
+  padding: 14px 27px;
+  margin-bottom: 25px;
+}
+
+.textNiveis .conteudoNiveis h2 {
+  color: rgba(217, 217, 217, 1);
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.textNiveis .conteudoNiveis p {
+  font-family: "Montserrat", sans-serif;
+  color: #d9d9d9;
+  font-size: 20px;
+}
+
+.suasHabilidades {
+  width: 100%;
+  background-color: #f66b40;
+  margin: 0 auto 174px auto;
+  padding-bottom: 50px;
+}
+
+.suasHabilidades .tituloHabilidades {
+  width: 996px;
+  height: 115px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    171deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 18%,
+    rgba(12, 18, 33, 1) 38%,
+    rgba(11, 18, 33, 1) 72%,
+    rgba(0, 0, 0, 1) 97%
+  );
+  border-radius: 10px;
+  margin: 76px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suasHabilidades .tituloHabilidades h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  color: #d9d9d9;
+  text-align: center;
+}
+
+.suasHabilidades .habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.suasHabilidades .habilidades .habilidade {
+  width: 400px;
+  height: 194px;
+  background: rgb(0, 0, 0);
+  margin: 20px;
+  padding: 40px 73px;
+  border-radius: 15px;
+  background: linear-gradient(
+    171deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 18%,
+    rgba(12, 18, 33, 1) 38%,
+    rgba(11, 18, 33, 1) 72%,
+    rgba(0, 0, 0, 1) 97%
+  );
+}
+
+.habilidades .habilidade .titulo {
+  display: flex;
+  margin-left: -50px;
+}
+
+.habilidade .titulo img {
+  margin: 3px 5px;
+}
+
+.habilidades .habilidade h1,
+.habilidades .habilidade p {
+  color: #d9d9d9;
+}
+
+.habilidades .habilidade h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.habilidades .habilidade p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.projFinais,
+.progDoCurso {
+  display: flex;
+  margin-bottom: 174px;
+}
+
+.projFinais h1,
+.progDoCurso h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  color: #f2643d;
+}
+
+.projFinais img,
+.progDoCurso img {
+  margin: 25px -20px 0 5px;
+}
+
+.projFinaisImgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.projFinaisImgs img {
+  width: 500px;
+  height: 319.23px;
+  margin-bottom: 40px;
+}
+
+.progDoCursoCont {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  margin-bottom: 300px;
+  gap: 30px;
+
+  /* margin: 0 4px 300px 4px; */
+}
+
+.progDoCursoCont .conteudo {
+  width: 400px;
+  height: 279px;
+  border-radius: 10px;
+  border-bottom-right-radius: 100px;
+  background-color: #294380;
+}
+
+.progDoCursoCont .conteudo .titulo {
+  display: flex;
+  padding: 33px 19px;
+}
+
+.conteudo .titulo h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  color: #f2643d;
+}
+
+.conteudo .titulo img {
+  height: 29px;
+  width: 29px;
+  margin: 10px 0 0 8px;
+}
+
+.conteudo ol {
+  margin-left: 29px;
+}
+
+.conteudo ol li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #d9d9d9;
+  margin-left: 29px;
+  margin-bottom: 12px;
+}

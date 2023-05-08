@@ -1,0 +1,345 @@
+@media (max-width: 1364px) {
+  .btn-insc {
+    margin: auto;
+  }
+
+  .imgSeta img {
+    width: 4rem !important;
+    margin-top: 2rem;
+  }
+
+  .progCurso img {
+    width: 24rem !important;
+  }
+
+  .niveisCursos .imgNiveis {
+    max-width: 25rem !important;
+    /* margin-right: 15% !important; */
+  }
+  .tituloHabilidades {
+    max-width: 900px;
+    margin: 50px auto 104px auto !important;
+  }
+
+  .tituloHabilidades h1 {
+    font-size: 50px !important  ;
+  }
+  .progDoCursoCont {
+    /* max-width: max-content; */
+  }
+  .progDoCursoCont h2 {
+    max-width: max-content;
+    font-size: 1.2rem !important;
+  }
+}
+
+@media (max-width: 1240px) {
+  .progCurso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .progCurso .titulo {
+    margin-top: 1rem;
+  }
+
+  .niveisCursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .progDoCursoCont h2 {
+    max-width: max-content;
+    font-size: 1rem !important;
+  }
+
+  .projFinaisImgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1084px) {
+  .menu ul li {
+    font-size: 1rem !important;
+  }
+  .tituloHabilidades {
+    width: 650px !important;
+  }
+  .tituloHabilidades h1 {
+    font-size: 30px !important;
+  }
+  .imgSeta img {
+    width: 3rem;
+    margin-top: 2rem;
+    margin-left: 20px !important;
+  }
+
+  .projFinais {
+    max-width: 700px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .projFinais h1 {
+    font-size: 2.8rem !important;
+  }
+  .progDoCurso {
+    max-width: 680px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .progDoCurso h1 {
+    font-size: 2.8rem !important;
+  }
+  .progDoCursoCont {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 965px) {
+  .imgSeta {
+    display: none;
+  }
+  .menu ul li {
+    display: none;
+  }
+
+  .menuu {
+    display: flex !important;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+    cursor: pointer;
+    position: absolute;
+    top: 40px;
+  }
+  .menu1 {
+    width: 30px;
+    background-color: black;
+    border: 1px solid;
+    height: 1px;
+  }
+  .menu2 {
+    width: 30px;
+    background-color: black;
+    border: 1px solid;
+    height: 1px;
+  }
+  .menu3 {
+    width: 30px;
+    background-color: black;
+    border: 1px solid;
+    height: 1px;
+  }
+
+  .active1 {
+    transform: rotate(45deg) translate(1px, 5.5px);
+
+    transition: 0.5s;
+  }
+  .active2 {
+    opacity: 0;
+  }
+
+  .active3 {
+    transform: rotate(-45deg) translate(3px, -10px);
+    transition: 0.5s;
+  }
+
+  .active4 ul li {
+    display: block;
+  }
+  .active5 {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    gap: 10px !important;
+    position: absolute;
+    right: 60px;
+    top: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 838px) {
+  * {
+  }
+  .btnParaQuem span {
+    font-size: 40px !important;
+  }
+  .tituloHabilidades {
+    width: 500px !important;
+  }
+  .tituloHabilidades h1 {
+    font-size: 25px !important;
+  }
+
+  .projFinais {
+    max-width: 500px !important;
+  }
+  .projFinais h1 {
+    font-size: 35px !important;
+  }
+  .projFinais img {
+    width: 30px !important;
+  }
+  .progDoCurso {
+    max-width: 500px !important;
+  }
+  .progDoCurso h1 {
+    font-size: 35px !important;
+  }
+  .progDoCurso img {
+    width: 30px !important;
+  }
+}
+
+@media (max-width: 648px) {
+  .header .logo {
+    margin-left: -50px;
+  }
+  .progCurso .textos .titulo {
+    font-size: 40px;
+    width: 300px;
+
+    margin: auto;
+    margin-top: 17px;
+  }
+  .progCurso .textos .titulo2 {
+    font-size: 30px;
+  }
+  .progCurso p {
+    font-size: 20px !important;
+  }
+  .progCurso img {
+    width: 350px !important;
+  }
+
+  .paraquem span {
+    font-size: 30px !important;
+  }
+  .niveisCursos .imgNiveis img {
+    width: 400px !important;
+    object-fit: contain;
+  }
+  .numero-traco {
+    max-width: max-content;
+  }
+  .conteudoNiveis {
+    max-width: 400px;
+  }
+  .conteudoNiveis h2 {
+    font-size: 25px !important;
+  }
+  .conteudoNiveis p {
+    font-size: 17px !important;
+  }
+  .conteudoNiveis {
+    max-width: 400px;
+  }
+  .conteudoNiveis h2 {
+    font-size: 25px !important;
+  }
+  .conteudoNiveis p {
+    font-size: 17px !important;
+  }
+
+  .tituloHabilidades {
+    max-width: 340px;
+  }
+  .tituloHabilidades h1 {
+    font-size: 20px !important;
+  }
+  .habilidades {
+    max-width: 300px !important;
+  }
+  .habilidades .titulo img {
+    max-width: 40px !important;
+    object-fit: contain;
+  }
+  .habilidades .titulo h1 {
+    font-size: 14px !important;
+  }
+  .habilidades p {
+    font-size: 11px !important;
+  }
+
+  .projFinais h1 {
+    font-size: 30px !important;
+    max-width: 400px;
+  }
+  .projFinais img {
+    display: none;
+  }
+  .projFinaisImgs img {
+    object-fit: contain;
+    max-width: 400px;
+  }
+  .progDoCurso h1 {
+    font-size: 30px !important;
+    max-width: 400px !important;
+  }
+  .progDoCurso img {
+    display: none;
+  }
+}
+
+@media (max-width: 410px) {
+  .header .logo {
+    margin-left: -50px;
+  }
+  .progCurso .img img {
+    object-fit: contain;
+    width: 300px !important;
+    /* font-size: 30px; */
+  }
+  .paraquem .btnParaQuem {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .paraquem .btnParaQuem span {
+    line-height: normal;
+  }
+
+  .niveisCursos .imgNiveis img {
+    object-fit: contain;
+    width: 300px !important;
+  }
+
+  .niveisCursos .textNiveis .textNivel {
+    max-width: max-content;
+  }
+
+  .niveisCursos .textNiveis .conteudoNiveis {
+    max-width: 300px;
+  }
+  .niveisCursos .textNiveis .conteudoNiveis p {
+    max-width: 300px;
+    font-size: 15px !important;
+  }
+  .projFinaisImgs img {
+    max-width: 300px;
+  }
+  .progDoCursoCont .conteudo {
+    max-width: 300px;
+  }
+}
+@media (max-width: 356px) {
+  .suasHabilidades .tituloHabilidades {
+    max-width: 300px;
+  }
+  .rodape .rodapeLeft .rodapeEmail {
+    max-width: 300px;
+  }
+}

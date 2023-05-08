@@ -1,0 +1,93 @@
+.rodape {
+    width: 100%;
+    background-color: #f66b40;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rodapeLeft h1 {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 41px;
+}
+
+.rodapeLeft p {
+    margin-bottom: 140px;
+    max-width: 373px;
+}
+.rodapeLeft p,
+.rodapeLeft h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.5px;
+    margin-top: 40px;
+}
+
+.rodapeLeft .rodapeEmail input[type="email"] {
+    font-family: 'Montserrat', sans-serif;
+    color:rgba(80, 80, 80, 1);
+    margin: 15px 20px;
+    border: none;
+    outline: none;
+    margin-right: 50px;
+}
+
+.rodapeLeft .rodapeEmail {
+    width: 338px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+    margin-bottom: 61px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodapeLeft .rodapeEmail .seta {
+    width: 30px;
+    height: 30px;
+    background-color: #294389; 
+    border-radius: 50px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodapeLeft h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #d9d9d9;
+}
+
+.rodapeRight{
+    margin-top: 108px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rodapeRight h2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.rodapeRight ul li {
+    font-weight: 200;
+    font-size: 20;
+    margin-bottom: 10px;
+}
+
+.rodapeRightRede img{
+    margin:67px  18px 0 0;
+    margin-bottom: 10px;
+}
